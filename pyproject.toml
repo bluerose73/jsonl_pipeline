@@ -11,6 +11,9 @@ authors = [
 description = "Python library that handles JSONL data processing boilerplates for you."
 readme = "README.md"
 requires-python = ">=3.11"
+dependencies = [
+    "tqdm"
+]
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
@@ -20,3 +23,8 @@ classifiers = [
 [project.urls]
 "Homepage" = "https://github.com/bluerose73/jsonl_pipeline"
 "Bug Tracker" = "https://github.com/bluerose73/jsonl_pipeline/issues"
+
+[project.optional-dependencies]
+dev = [
+  "pytest"
+]
