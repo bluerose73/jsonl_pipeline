@@ -11,7 +11,6 @@ pip install jsonl_pipeline
 ## Usage
 
 ```python
-import asyncio
 from jsonl_pipeline import process_jsonl
 
 # Define your async processor function
