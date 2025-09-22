@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "jsonl_pipeline"
+version = "0.0.1"
+authors = [
+  { name="bluerose73", email="mashengjie73@gmail.com" },
+]
+description = "Python library that handles JSONL data processing boilerplates for you."
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/bluerose73/jsonl_pipeline"
+"Bug Tracker" = "https://github.com/bluerose73/jsonl_pipeline/issues"
