@@ -5,7 +5,7 @@ A Python library that handles JSONL data processing boilerplates for you.
 ## Installation
 
 ```bash
-pip install jsonl_pipeline
+pip install git+https://github.com/bluerose73/jsonl_pipeline.git
 ```
 
 ## Usage
